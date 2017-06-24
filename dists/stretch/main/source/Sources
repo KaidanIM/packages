@@ -1,3 +1,148 @@
+Package: kaidan
+Binary: kaidan
+Version: 0.2.1-1
+Maintainer: Kaidan Packaging Team <gamerbude@lnj.li>
+Build-Depends: debhelper (>= 9), zlib1g-dev, libglib2.0-dev, libssl-dev, libxml2-dev, libcrypto++-dev, libpthread-stubs0-dev, libidn11-dev, libminiupnpc-dev, libnatpmp-dev, libswiften-dev, libboost-signals-dev, qtdeclarative5-dev, qttools5-dev, qtbase5-dev, kirigami2-dev, cmake
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Directory: pool/main/k/kaidan
+Files:
+ b1f9deb73b09cce9512805a7a7898204 2372 kaidan_0.2.1-1.debian.tar.xz
+ 6e4a471704e9ab7b828114bf6f90fed1 1169 kaidan_0.2.1-1.dsc
+ 966eb6965e7f9c7566e51cf46eead7f3 101598 kaidan_0.2.1.orig.tar.gz
+Homepage: https://github.com/kaidanim/kaidan/
+Checksums-Sha1:
+ bef1d10560736139fbbf3335461408e359a50f0a 2372 kaidan_0.2.1-1.debian.tar.xz
+ c8dd8795830e097a455efa2aa3e876af957c8b90 1169 kaidan_0.2.1-1.dsc
+ dedd0ec518b6148cf0a724239b7df799e1a6e70f 101598 kaidan_0.2.1.orig.tar.gz
+Checksums-Sha256:
+ ce3b663411f6bdce1af9b3e1b3deaa568190866d2f54532173cb96380f184edb 2372 kaidan_0.2.1-1.debian.tar.xz
+ 88c88a11f6bbb34b350ea56534d5986f701d1c96d01ec04708d239bbc1161b05 1169 kaidan_0.2.1-1.dsc
+ f80f79b2368bb8350a00ad5d3506923bad16b5c23ae5467c1478c593c3741c65 101598 kaidan_0.2.1.orig.tar.gz
+Vcs-Git: git://github.com/kaidanim/packaging_deb.git
+Checksums-Sha512:
+ 93efc8c253ec4eac408e1b10f5945866276be21fa63658b1ff2fc2d23af1d54478cee9b101dee138d2d2888db796ca6dd6a533afe6d7300e6ce32fbb5de2b872 1169 kaidan_0.2.1-1.dsc
+Vcs-Browser: https://github.com/kaidanim/packaging_deb/
+Package-List:
+ kaidan deb comm optional arch=any
+
+Package: kaidan
+Binary: kaidan
+Version: 0.2.0.0-1
+Maintainer: Kaidan Packaging Team <gamerbude@lnj.li>
+Build-Depends: debhelper (>= 9), zlib1g-dev, libglib2.0-dev, libssl-dev, libxml2-dev, libcrypto++-dev, libpthread-stubs0-dev, libidn11-dev, libminiupnpc-dev, libnatpmp-dev, libswiften-dev, libboost-signals-dev, qtdeclarative5-dev, qttools5-dev, qtbase5-dev, kirigami2-dev, cmake
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Directory: pool/main/k/kaidan
+Files:
+ 3b7f7ec7919c1b3e5c0131f370ab5347 2420 kaidan_0.2.0.0-1.debian.tar.xz
+ f5b92a17f5aaa9b2e3c5fad5f19fc3ad 1183 kaidan_0.2.0.0-1.dsc
+ 94ec368c44a6c5f56f818ead249f5ad3 101543 kaidan_0.2.0.0.orig.tar.gz
+Package-List:
+ kaidan deb comm optional arch=any
+Homepage: https://github.com/kaidanim/kaidan/
+Checksums-Sha256:
+ eeef04338111ddfb067f0918f448133059d8d0b73164f498ef822e1424698ae2 2420 kaidan_0.2.0.0-1.debian.tar.xz
+ 3cb3dc4ca74f7c60a60a88491aba9cc99628da0c02a5aa48a01f7ad99f4b0cf9 1183 kaidan_0.2.0.0-1.dsc
+ 051d0af894f483ec89cb0629aa2fba07bf0b36f69b0ae49d30d023af6cb9034e 101543 kaidan_0.2.0.0.orig.tar.gz
+Vcs-Git: git://github.com/kaidanim/packaging_deb.git
+Vcs-Browser: https://github.com/kaidanim/packaging_deb/
+Checksums-Sha1:
+ 65d4d45c1d701ce545f92d4698857b5d7a6957ae 2420 kaidan_0.2.0.0-1.debian.tar.xz
+ e0b385736e0dbbd59b396fe1677e88f42b75f74c 1183 kaidan_0.2.0.0-1.dsc
+ 1cf3c2b7d681956446b3c8b880955217a43b811b 101543 kaidan_0.2.0.0.orig.tar.gz
+Checksums-Sha512:
+ 05f15b28b45974986600f3ee1ee18e6f673903a201859ae2d7e01d70b6a30a459145f0ee150e1df7e07b545f0ad04295e8229b2fc2e191f4257bac74b4f598f8 1183 kaidan_0.2.0.0-1.dsc
+
+Package: kaidan
+Binary: kaidan
+Version: 0.2.0-dev+git20170605-1
+Maintainer: Kaidan Packaging Team <gamerbude@lnj.li>
+Build-Depends: debhelper (>= 9), zlib1g-dev, libglib2.0-dev, libssl-dev, libxml2-dev, libcrypto++-dev, libpthread-stubs0-dev, libidn11-dev, libminiupnpc-dev, libnatpmp-dev, libswiften-dev, libboost-signals-dev, qtdeclarative5-dev, qttools5-dev, qtbase5-dev, cmake
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Directory: pool/main/k/kaidan
+Files:
+ f021ecc5a2c0b321637ffc8d59339676 2080 kaidan_0.2.0-dev+git20170605-1.debian.tar.xz
+ 0f3724ced300a885b741026ac5545a7a 1266 kaidan_0.2.0-dev+git20170605-1.dsc
+ 70a1f3513213cbe39f2240c4a6c14ec1 100753 kaidan_0.2.0-dev+git20170605.orig.tar.gz
+Vcs-Git: git://github.com/kaidanim/packaging_deb.git
+Checksums-Sha256:
+ 9685b4e58379fe550cbef15d226ea2d7e9ca1355441cf3fac8eae17853eb1308 2080 kaidan_0.2.0-dev+git20170605-1.debian.tar.xz
+ 78318172e1dbb78d54c2961d52a83ae29fae3d726a0e1e425ddd0bb83324e6cd 1266 kaidan_0.2.0-dev+git20170605-1.dsc
+ 05101d45bcf633de644d1be5cb922e7fe130a9497437859277cd6a268dca9e8b 100753 kaidan_0.2.0-dev+git20170605.orig.tar.gz
+Checksums-Sha512:
+ 98735b402e7f2b752ffe4fe5c86c760e4196d77f4b880f548ec59fdc1c05e56b8764a7d4a4a5f49e6c676ccaa09f1ec8c66cde29216d3cbe51db65128e48e1ee 1266 kaidan_0.2.0-dev+git20170605-1.dsc
+Vcs-Browser: https://github.com/kaidanim/packaging_deb/
+Package-List:
+ kaidan deb comm optional arch=any
+Homepage: https://github.com/kaidanim/kaidan/
+Checksums-Sha1:
+ c386905d6dfa1538630341a87f18ccc3406e8426 2080 kaidan_0.2.0-dev+git20170605-1.debian.tar.xz
+ 74bdc63b3a44bd745dcb4a1aa83b82ca61608a7b 1266 kaidan_0.2.0-dev+git20170605-1.dsc
+ b3a73954a2fe2c204277100f5a9e58bd159369ee 100753 kaidan_0.2.0-dev+git20170605.orig.tar.gz
+
+Package: kaidan
+Binary: kaidan
+Version: 0.2.0-dev+git20170501-1
+Maintainer: Kaidan Packaging Team <gamerbude@lnj.li>
+Build-Depends: debhelper (>= 9), zlib1g-dev, libglib2.0-dev, libssl-dev, libxml2-dev, libcrypto++-dev, libpthread-stubs0-dev, libidn11-dev, libminiupnpc-dev, libnatpmp-dev, libswiften-dev, libboost-signals-dev, qtdeclarative5-dev, qttools5-dev, cmake
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Directory: pool/main/k/kaidan
+Files:
+ e6ef8610da70d14e9f6b5d91c817cce5 2012 kaidan_0.2.0-dev+git20170501-1.debian.tar.xz
+ 877a07f0e43469a76605175286e304a4 1236 kaidan_0.2.0-dev+git20170501-1.dsc
+ f72219d04a6fa0bc743a2c5af5ab9374 86384 kaidan_0.2.0-dev+git20170501.orig.tar.xz
+Vcs-Git: git://github.com/kaidanim/kaidan.git
+Checksums-Sha1:
+ 71ff533e835f9f8db81929fbf1e40100ceb03d75 2012 kaidan_0.2.0-dev+git20170501-1.debian.tar.xz
+ 03cf9e3d6149bf56ff529d932ea4ae732e145606 1236 kaidan_0.2.0-dev+git20170501-1.dsc
+ 0b9eb6b59acda1d61f5f004ea878f39aa99cc4e7 86384 kaidan_0.2.0-dev+git20170501.orig.tar.xz
+Checksums-Sha512:
+ 2fd7fb3ac5a2c6a640b11820f0b6c63fb10c52699eb5683acd044c726478aea926c3c42d3d0dc036318c13ab3e90036416818e241fbfbe91b757e00acac48f25 1236 kaidan_0.2.0-dev+git20170501-1.dsc
+Checksums-Sha256:
+ a5bc8402d51dd6dab70f6cc885d2e872e0a83d063de7fd2dde3a5f0f375db2a4 2012 kaidan_0.2.0-dev+git20170501-1.debian.tar.xz
+ 2ad2082b207bc15682e51063f06592292f1d73f55a7ef01aafd99a0c8ab0fd9b 1236 kaidan_0.2.0-dev+git20170501-1.dsc
+ a40820ffdc2eeca2120e3d3b58d7212f45f0f732803e83258cb3139ac4cff14f 86384 kaidan_0.2.0-dev+git20170501.orig.tar.xz
+Vcs-Browser: https://github.com/kaidanim/kaidan/
+Homepage: https://github.com/kaidanim/kaidan/
+Package-List:
+ kaidan deb comm optional arch=any
+
+Package: kaidan
+Binary: kaidan
+Version: 0.2.0-1
+Maintainer: Kaidan Packaging Team <gamerbude@lnj.li>
+Build-Depends: debhelper (>= 9), zlib1g-dev, libglib2.0-dev, libssl-dev, libxml2-dev, libcrypto++-dev, libpthread-stubs0-dev, libidn11-dev, libminiupnpc-dev, libnatpmp-dev, libswiften-dev, libboost-signals-dev, qtdeclarative5-dev, qttools5-dev, qtbase5-dev, kirigami2-dev, cmake
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Directory: pool/main/k/kaidan
+Files:
+ 4ff4a35a49cb3cb8b857ab33b13482df 2372 kaidan_0.2.0-1.debian.tar.xz
+ 699f3e783a1d72ca174de4b9be812167 1169 kaidan_0.2.0-1.dsc
+ 94ec368c44a6c5f56f818ead249f5ad3 101543 kaidan_0.2.0.orig.tar.gz
+Checksums-Sha512:
+ 2551c1f52e3fcf00b028d64b50ffb9de5556f341c7db57eea8b6023631ffdd022f56e7428474c7fe8eb9c59cb464ac06165db659e9243a99be17e96219f43a16 1169 kaidan_0.2.0-1.dsc
+Package-List:
+ kaidan deb comm optional arch=any
+Checksums-Sha1:
+ 6009575188b3c5a4cfdcd96fed326604f46c6f5d 2372 kaidan_0.2.0-1.debian.tar.xz
+ 49c23e6c9c97bfc0b829c8bb99cbd5f6fc66f887 1169 kaidan_0.2.0-1.dsc
+ 1cf3c2b7d681956446b3c8b880955217a43b811b 101543 kaidan_0.2.0.orig.tar.gz
+Vcs-Browser: https://github.com/kaidanim/packaging_deb/
+Vcs-Git: git://github.com/kaidanim/packaging_deb.git
+Homepage: https://github.com/kaidanim/kaidan/
+Checksums-Sha256:
+ 17f72bc1870702b29c365da59488e0614ccc03b6b9dd477c7bd174cd582afb66 2372 kaidan_0.2.0-1.debian.tar.xz
+ ce8bd978b76caa1069c0d6f2ceb501f34130876ae78a607c64ebe6a136a46c44 1169 kaidan_0.2.0-1.dsc
+ 051d0af894f483ec89cb0629aa2fba07bf0b36f69b0ae49d30d023af6cb9034e 101543 kaidan_0.2.0.orig.tar.gz
+
 Package: kirigami2
 Binary: qml-module-org-kde-kirigami2, kirigami2-dev, kirigami-gallery
 Version: 2.1.1-1
@@ -12,24 +157,24 @@ Files:
  07429cac2de5b20c9374062db093966f 4048 kirigami2_2.1.1-1.debian.tar.xz
  66341552050686fd8a8b3188f5584f05 1564 kirigami2_2.1.1-1.dsc
  1c452c6d6ea57a3d18c82aab77a5e9bc 269820 kirigami2_2.1.1.orig.tar.xz
-Homepage: https://projects.kde.org/kirigami
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami.git
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami.git
 Checksums-Sha512:
  c2dae09fc7e696e217b6625137fbec1d025854f73d5b8d898b28b0ae58a70df8bc602ef681471c4145f6ff7ee49fd7503ef3b6813f260953add39467003ebf83 1564 kirigami2_2.1.1-1.dsc
 Checksums-Sha1:
  9647e36ad3639c2a244182fcc9c9bb9ba105c603 4048 kirigami2_2.1.1-1.debian.tar.xz
  2472aa90612cd86d0b9e0a48e77d2b534148d214 1564 kirigami2_2.1.1-1.dsc
  a07a36f48f6327b9fb891faa4343aff265980909 269820 kirigami2_2.1.1.orig.tar.xz
-Uploaders: Maximiliano Curia <maxy@debian.org>
-Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami.git
-Package-List:
- kirigami-gallery deb kde optional arch=any
- kirigami2-dev deb kde optional arch=any
- qml-module-org-kde-kirigami2 deb kde optional arch=any
 Checksums-Sha256:
  5e794d667cbfdfb9de34c353d04403b0693315c26d29570429f276b5cfbf7d71 4048 kirigami2_2.1.1-1.debian.tar.xz
  749b44eaaa57c141456c94fddec74f8a0c1ea169f1884414d0a06b9de3f08d66 1564 kirigami2_2.1.1-1.dsc
  5ad00d8796ea375b12c32bb48db9f7b2155b4d93037631aeeebf342d9407f261 269820 kirigami2_2.1.1.orig.tar.xz
+Homepage: https://projects.kde.org/kirigami
+Package-List:
+ kirigami-gallery deb kde optional arch=any
+ kirigami2-dev deb kde optional arch=any
+ qml-module-org-kde-kirigami2 deb kde optional arch=any
 
 Package: kirigami2
 Binary: qml-module-org-kde-kirigami2, kirigami2-dev, kirigami-gallery
@@ -45,24 +190,24 @@ Files:
  e7081fcdd58f9583efe0b37a2466251b 4024 kirigami2_2.0.0+git20170307.0340-0.debian.tar.xz
  6c1496d2f1a499cdd0e13ecac6465cd8 1683 kirigami2_2.0.0+git20170307.0340-0.dsc
  7234bbe229c785f11db6d2591cd09f02 261312 kirigami2_2.0.0+git20170307.0340.orig.tar.xz
-Homepage: https://projects.kde.org/kirigami
-Checksums-Sha512:
- c7e3d09aab260cd3aa5f2702d55d8d292eec5a9036a6b67c367dfa0aaf21efea66bd86756b922c03a24f8542947b8b1070a4411f3fb646350f775f356a5b2ad1 1683 kirigami2_2.0.0+git20170307.0340-0.dsc
-Uploaders: Maximiliano Curia <maxy@debian.org>
-Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami.git
-Package-List:
- kirigami-gallery deb kde optional arch=any
- kirigami2-dev deb kde optional arch=any
- qml-module-org-kde-kirigami2 deb kde optional arch=any
-Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami.git
-Checksums-Sha256:
- 85297734e5fee53004e891c12198781d028c9aa539c4fb78db970f003d59a1c3 4024 kirigami2_2.0.0+git20170307.0340-0.debian.tar.xz
- ca1c4eba063e3a47ce0bbc2f431d303f77d5a5f46b8c7ee0c80df6955743587c 1683 kirigami2_2.0.0+git20170307.0340-0.dsc
- a8081bc8c871cec2216ecee26082650e9fe18e59303261558088be2e390e35c7 261312 kirigami2_2.0.0+git20170307.0340.orig.tar.xz
 Checksums-Sha1:
  06a054f2da7ec346b45af3a85b0b08117444ccba 4024 kirigami2_2.0.0+git20170307.0340-0.debian.tar.xz
  03a41b8865c1f0f49acee261a929006176c64ae4 1683 kirigami2_2.0.0+git20170307.0340-0.dsc
  f41245c3c9ad16f2bd2f925832b39f423280d3dd 261312 kirigami2_2.0.0+git20170307.0340.orig.tar.xz
+Homepage: https://projects.kde.org/kirigami
+Package-List:
+ kirigami-gallery deb kde optional arch=any
+ kirigami2-dev deb kde optional arch=any
+ qml-module-org-kde-kirigami2 deb kde optional arch=any
+Checksums-Sha256:
+ 85297734e5fee53004e891c12198781d028c9aa539c4fb78db970f003d59a1c3 4024 kirigami2_2.0.0+git20170307.0340-0.debian.tar.xz
+ ca1c4eba063e3a47ce0bbc2f431d303f77d5a5f46b8c7ee0c80df6955743587c 1683 kirigami2_2.0.0+git20170307.0340-0.dsc
+ a8081bc8c871cec2216ecee26082650e9fe18e59303261558088be2e390e35c7 261312 kirigami2_2.0.0+git20170307.0340.orig.tar.xz
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami.git
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami.git
+Checksums-Sha512:
+ c7e3d09aab260cd3aa5f2702d55d8d292eec5a9036a6b67c367dfa0aaf21efea66bd86756b922c03a24f8542947b8b1070a4411f3fb646350f775f356a5b2ad1 1683 kirigami2_2.0.0+git20170307.0340-0.dsc
 
 Package: swift-im
 Binary: libswiften3, libswiften-dev, swift-im
@@ -77,22 +222,22 @@ Files:
  a7b4bdcdd32e4707a8fc5dd7e8afb9f8 9840 swift-im_3.0.4-2.debian.tar.xz
  3bfd7ab7875b5d8a3ff0e9b91c3f6b37 1789 swift-im_3.0.4-2.dsc
  c2750315244eaf63e099052b59baebce 2285806 swift-im_3.0.4.orig.tar.gz
-Checksums-Sha256:
- fdab5e20c5d5f1bdae5f7c8e69d70c4e2c67a46f75ea1d3ee25ce6efff573dc0 9840 swift-im_3.0.4-2.debian.tar.xz
- a5f0dbc23f5558d11bf6bcda07e29f79dd864c71f0f8dad5003b5956667e3c36 1789 swift-im_3.0.4-2.dsc
- ab65a55e5ab3c04a09e46464e557d78ba6d6ff1806686beb04a2b9ad24f97df3 2285806 swift-im_3.0.4.orig.tar.gz
+Homepage: http://swift.im
+Vcs-Git: git://swift.im/swift
+Vcs-Browser: http://swift.im/git/swift
 Checksums-Sha1:
  4666606c0b980ad7e90bb020c042aaf9f5879d8a 9840 swift-im_3.0.4-2.debian.tar.xz
  833d664139d1fe8fa76f5b994b0c1138952e0faa 1789 swift-im_3.0.4-2.dsc
  c0296c1b934414d7f7f689a8783528287bccc5bb 2285806 swift-im_3.0.4.orig.tar.gz
-Vcs-Git: git://swift.im/swift
-Homepage: http://swift.im
-Vcs-Browser: http://swift.im/git/swift
+Checksums-Sha512:
+ d20417c64cc452cf724945d5b56e2dcb37a9d425b4559788d7eff11bc86720fce9fd66eca27cec61a8c869b799775bdd53cb2bc4b4387fa531e135e58d469ea7 1789 swift-im_3.0.4-2.dsc
 Package-List:
  libswiften-dev deb libdevel optional arch=any
  libswiften3 deb libs optional arch=any
  swift-im deb net optional arch=any
-Checksums-Sha512:
- d20417c64cc452cf724945d5b56e2dcb37a9d425b4559788d7eff11bc86720fce9fd66eca27cec61a8c869b799775bdd53cb2bc4b4387fa531e135e58d469ea7 1789 swift-im_3.0.4-2.dsc
 Uploaders: Remko Tronçon <dev@el-tramo.be>, Kevin Smith <kevin@kismith.co.uk>
+Checksums-Sha256:
+ fdab5e20c5d5f1bdae5f7c8e69d70c4e2c67a46f75ea1d3ee25ce6efff573dc0 9840 swift-im_3.0.4-2.debian.tar.xz
+ a5f0dbc23f5558d11bf6bcda07e29f79dd864c71f0f8dad5003b5956667e3c36 1789 swift-im_3.0.4-2.dsc
+ ab65a55e5ab3c04a09e46464e557d78ba6d6ff1806686beb04a2b9ad24f97df3 2285806 swift-im_3.0.4.orig.tar.gz
 

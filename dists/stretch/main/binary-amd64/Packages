@@ -1,3 +1,123 @@
+Package: kaidan
+Priority: optional
+Section: comm
+Installed-Size: 579
+Maintainer: Kaidan Packaging Team <gamerbude@lnj.li>
+Architecture: amd64
+Version: 0.2.1-1
+Depends: libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5, libqt5quickwidgets5, libqt5network5, libqt5gui5 (>= 5.2.0), libqt5core5a (>= 5.7.0), libswiften3, libboost-signals1.63.0, qml-module-qtquick-controls2, qml-module-org-kde-kirigami2, libboost-date-time1.62.0, libboost-filesystem1.62.0, libboost-regex1.62.0, libboost-signals1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt5qml5 (>= 5.1.0), libqt5sql5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: pool/main/k/kaidan/kaidan_0.2.1-1_amd64.deb
+Size: 160694
+MD5sum: fde77e50b87c1d897ae3e87cf4b32f69
+SHA1: 3ba22ccd8f2c00d490aa2df224a85bcb50511589
+SHA256: 3cf7e0b1b260473dee6aa2765b536fe797b1a15468cdb8a967acc064cacd7bfc
+SHA512: 034ff7342a4dc3ff0a531527ce2f025cb54a351d6cf9bc86f5dab93467e702250f60b664c1838b78356c141d1aeb804de3df91ace8d219f2639b914c22f0f98f
+Description: Simple, user-friendly Jabber/XMPP client for every device
+ It's providing a modern user-interface using Kirigami and QtQuick. The
+ back-end of Kaidan is completely written in C++ using the Swiften Library
+ of the Swift Instant Messenger and Qt 5. As Swiften, Kaidan is released
+ under the GPL (Version 3 or later).
+ .
+ Kaidan is not finished: Don't expect it to work as well as a finished
+ messenger will.
+Homepage: https://github.com/kaidanim/kaidan/
+
+Package: kaidan
+Priority: optional
+Section: comm
+Installed-Size: 579
+Maintainer: Kaidan Packaging Team <gamerbude@lnj.li>
+Architecture: amd64
+Version: 0.2.0.0-1
+Depends: libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5, libqt5quickwidgets5, libqt5network5, libqt5gui5 (>= 5.2.0), libqt5core5a (>= 5.7.0), libswiften3, libboost-signals1.63.0, qml-module-qtquick-controls2, qml-module-org-kde-kirigami2, libboost-date-time1.62.0, libboost-filesystem1.62.0, libboost-regex1.62.0, libboost-signals1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt5qml5 (>= 5.1.0), libqt5sql5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: pool/main/k/kaidan/kaidan_0.2.0.0-1_amd64.deb
+Size: 160704
+MD5sum: 29f3f1f44ff3fedca25882cf42ecc53f
+SHA1: a9eb15c44e6b5b2767f66a71aad48c06e29e0ac1
+SHA256: bf05590e0396c0c1877de395a9936a57dde9361ef945986274b4043d4a9ce551
+SHA512: fc01cbd76590e4a832a48125873ff849246dff8526aaccad939d648cb112528b121775fc13306bedc0550a3cb35e1f1d517f91cc15e64a2ac7652ed11d15a37e
+Description: Simple, user-friendly Jabber/XMPP client for every device
+ It's providing a modern user-interface using Kirigami and QtQuick. The
+ back-end of Kaidan is completely written in C++ using the Swiften Library
+ of the Swift Instant Messenger and Qt 5. As Swiften, Kaidan is released
+ under the GPL (Version 3 or later).
+ .
+ Kaidan is not finished: Don't expect it to work as well as a finished
+ messenger will.
+Homepage: https://github.com/kaidanim/kaidan/
+
+Package: kaidan
+Priority: optional
+Section: comm
+Installed-Size: 569
+Maintainer: Kaidan Packaging Team <gamerbude@lnj.li>
+Architecture: amd64
+Version: 0.2.0-dev+git20170605-1
+Depends: libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5, libqt5quickwidgets5, libqt5network5, libqt5gui5 (>= 5.2.0), libqt5core5a (>= 5.7.0), libswiften3, libboost-signals1.63.0, qml-module-qtquick-controls2, qml-module-org-kde-kirigami, libboost-date-time1.62.0, libboost-filesystem1.62.0, libboost-regex1.62.0, libboost-signals1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt5qml5 (>= 5.1.0), libqt5sql5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: pool/main/k/kaidan/kaidan_0.2.0-dev+git20170605-1_amd64.deb
+Size: 158082
+MD5sum: a211630a8ec76e91fe2a3cb1fc2b45d7
+SHA1: 4d144b0c11839563a8e7e70031d2aeeac1614790
+SHA256: 9ddb5c8a9ad40cff9354fa03fd79baa9a84882f2e40cc0c090279fd64df5858d
+SHA512: c0878bc6eddea73512ff896304c2f5ce7cf5fe2021df93e508541d44017a0c2917b026448503935f74d7f4bc36a5b208b8426c712a3d03abb068808b450734f8
+Description: Simple, user-friendly Jabber/XMPP client for every device
+ It's providing a modern user-interface using Kirigami and QtQuick. The
+ back-end of Kaidan is completely written in C++ using the Swiften Library
+ of the Swift Instant Messenger and Qt 5. As Swiften, Kaidan is released
+ under the GPL (Version 3 or later).
+ .
+ Kaidan is not finished: Don't expect it to work as well as a finished
+ messenger will.
+Homepage: https://github.com/kaidanim/kaidan/
+
+Package: kaidan
+Priority: optional
+Section: comm
+Installed-Size: 561
+Maintainer: Kaidan Packaging Team <gamerbude@lnj.li>
+Architecture: amd64
+Version: 0.2.0-dev+git20170501-1
+Depends: libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5, libqt5quickwidgets5, libqt5network5, libqt5gui5 (>= 5.2.0), libqt5core5a (>= 5.7.0), libswiften3, libboost-signals1.62.0, qml-module-qtquick-controls2, qml-module-org-kde-kirigami, libboost-date-time1.62.0, libboost-filesystem1.62.0, libboost-regex1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt5qml5 (>= 5.1.0), libqt5sql5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: pool/main/k/kaidan/kaidan_0.2.0-dev+git20170501-1_amd64.deb
+Size: 155574
+MD5sum: 3009995f2c4f678da73e140ca5649737
+SHA1: f1ead4bb7d94b8688ff3c37309bbc66b5e997c37
+SHA256: 9b3b3b6b1f8431a737e24dec972e87855271b15f94da8102192dcf3310205a2b
+SHA512: f9458c73acf2c100653b0f1a93d972e09566de31b7418c4c00a3339c92e9473182268d8f731d8094679569a6d3dd4fba5e0d19c9a9185292c9649e73c553dfa5
+Description: Simple, user-friendly Jabber/XMPP client for every device
+ It's providing a modern user-interface using Kirigami and QtQuick. The
+ back-end of Kaidan is completely written in C++ using the Swiften Library
+ of the Swift Instant Messenger and Qt 5. As Swiften, Kaidan is released
+ under the GPL (Version 3 or later).
+ .
+ Kaidan is not finished: Don't expect it to work as well as a finished
+ messenger will.
+Homepage: https://github.com/kaidanim/kaidan/
+
+Package: kaidan
+Priority: optional
+Section: comm
+Installed-Size: 579
+Maintainer: Kaidan Packaging Team <gamerbude@lnj.li>
+Architecture: amd64
+Version: 0.2.0-1
+Depends: libqt5quick5 (>= 5.0.2), libqt5quickcontrols2-5, libqt5quickwidgets5, libqt5network5, libqt5gui5 (>= 5.2.0), libqt5core5a (>= 5.7.0), libswiften3, libboost-signals1.63.0, qml-module-qtquick-controls2, qml-module-org-kde-kirigami2, libboost-date-time1.62.0, libboost-filesystem1.62.0, libboost-regex1.62.0, libboost-signals1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt5qml5 (>= 5.1.0), libqt5sql5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: pool/main/k/kaidan/kaidan_0.2.0-1_amd64.deb
+Size: 160846
+MD5sum: 518ad0039d4756e24984142abedf998f
+SHA1: 11bfb697e7b58a41c2ac2f7258760bcc0f08a519
+SHA256: bca82c3d46ff2d7ea09486e843f1aba8a8dfb14b8f4623034e543c11deee0670
+SHA512: f1935d263b276192d034dc4c50b179166f2f2f1e150568d59e336936405b87250f8855d957a1e88270f106ff7de484226c74ea75cc95845f0200ca390bb3ffa0
+Description: Simple, user-friendly Jabber/XMPP client for every device
+ It's providing a modern user-interface using Kirigami and QtQuick. The
+ back-end of Kaidan is completely written in C++ using the Swiften Library
+ of the Swift Instant Messenger and Qt 5. As Swiften, Kaidan is released
+ under the GPL (Version 3 or later).
+ .
+ Kaidan is not finished: Don't expect it to work as well as a finished
+ messenger will.
+Homepage: https://github.com/kaidanim/kaidan/
+
 Package: kirigami-gallery
 Priority: optional
 Section: kde
