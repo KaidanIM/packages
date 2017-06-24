@@ -1,3 +1,69 @@
+Package: kirigami2
+Binary: qml-module-org-kde-kirigami2, kirigami2-dev, kirigami-gallery
+Version: 2.1.1-1
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake (>= 2.8.12~), debhelper (>= 9~), extra-cmake-modules (>= 0.0.8~), kdoctools-dev, libkf5declarative-dev, libqt5svg5-dev (>= 5.5.0~), pkg-kde-tools, plasma-framework-dev (>= 5.18.0~), qtbase5-dev (>= 5.5.0~), qtdeclarative5-dev (>= 5.5.0~), qtquickcontrols2-5-dev, qttools5-dev-tools
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Directory: pool/main/k/kirigami2
+Files:
+ 07429cac2de5b20c9374062db093966f 4048 kirigami2_2.1.1-1.debian.tar.xz
+ 66341552050686fd8a8b3188f5584f05 1564 kirigami2_2.1.1-1.dsc
+ 1c452c6d6ea57a3d18c82aab77a5e9bc 269820 kirigami2_2.1.1.orig.tar.xz
+Homepage: https://projects.kde.org/kirigami
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami.git
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Checksums-Sha256:
+ 5e794d667cbfdfb9de34c353d04403b0693315c26d29570429f276b5cfbf7d71 4048 kirigami2_2.1.1-1.debian.tar.xz
+ 749b44eaaa57c141456c94fddec74f8a0c1ea169f1884414d0a06b9de3f08d66 1564 kirigami2_2.1.1-1.dsc
+ 5ad00d8796ea375b12c32bb48db9f7b2155b4d93037631aeeebf342d9407f261 269820 kirigami2_2.1.1.orig.tar.xz
+Checksums-Sha1:
+ 9647e36ad3639c2a244182fcc9c9bb9ba105c603 4048 kirigami2_2.1.1-1.debian.tar.xz
+ 2472aa90612cd86d0b9e0a48e77d2b534148d214 1564 kirigami2_2.1.1-1.dsc
+ a07a36f48f6327b9fb891faa4343aff265980909 269820 kirigami2_2.1.1.orig.tar.xz
+Package-List:
+ kirigami-gallery deb kde optional arch=any
+ kirigami2-dev deb kde optional arch=any
+ qml-module-org-kde-kirigami2 deb kde optional arch=any
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami.git
+Checksums-Sha512:
+ c2dae09fc7e696e217b6625137fbec1d025854f73d5b8d898b28b0ae58a70df8bc602ef681471c4145f6ff7ee49fd7503ef3b6813f260953add39467003ebf83 1564 kirigami2_2.1.1-1.dsc
+
+Package: kirigami2
+Binary: qml-module-org-kde-kirigami2, kirigami2-dev, kirigami-gallery
+Version: 2.0.0+git20170307.0340-0
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake (>= 2.8.12~), debhelper (>= 9~), extra-cmake-modules (>= 0.0.8~), kdoctools-dev, libkf5declarative-dev, libqt5svg5-dev (>= 5.5.0~), pkg-kde-tools, plasma-framework-dev (>= 5.18.0~), qtbase5-dev (>= 5.5.0~), qtdeclarative5-dev (>= 5.5.0~), qtquickcontrols2-5-dev, qttools5-dev-tools
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Directory: pool/main/k/kirigami2
+Files:
+ e7081fcdd58f9583efe0b37a2466251b 4024 kirigami2_2.0.0+git20170307.0340-0.debian.tar.xz
+ 6c1496d2f1a499cdd0e13ecac6465cd8 1683 kirigami2_2.0.0+git20170307.0340-0.dsc
+ 7234bbe229c785f11db6d2591cd09f02 261312 kirigami2_2.0.0+git20170307.0340.orig.tar.xz
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami.git
+Checksums-Sha256:
+ 85297734e5fee53004e891c12198781d028c9aa539c4fb78db970f003d59a1c3 4024 kirigami2_2.0.0+git20170307.0340-0.debian.tar.xz
+ ca1c4eba063e3a47ce0bbc2f431d303f77d5a5f46b8c7ee0c80df6955743587c 1683 kirigami2_2.0.0+git20170307.0340-0.dsc
+ a8081bc8c871cec2216ecee26082650e9fe18e59303261558088be2e390e35c7 261312 kirigami2_2.0.0+git20170307.0340.orig.tar.xz
+Homepage: https://projects.kde.org/kirigami
+Checksums-Sha1:
+ 06a054f2da7ec346b45af3a85b0b08117444ccba 4024 kirigami2_2.0.0+git20170307.0340-0.debian.tar.xz
+ 03a41b8865c1f0f49acee261a929006176c64ae4 1683 kirigami2_2.0.0+git20170307.0340-0.dsc
+ f41245c3c9ad16f2bd2f925832b39f423280d3dd 261312 kirigami2_2.0.0+git20170307.0340.orig.tar.xz
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Package-List:
+ kirigami-gallery deb kde optional arch=any
+ kirigami2-dev deb kde optional arch=any
+ qml-module-org-kde-kirigami2 deb kde optional arch=any
+Checksums-Sha512:
+ c7e3d09aab260cd3aa5f2702d55d8d292eec5a9036a6b67c367dfa0aaf21efea66bd86756b922c03a24f8542947b8b1070a4411f3fb646350f775f356a5b2ad1 1683 kirigami2_2.0.0+git20170307.0340-0.dsc
+
 Package: swift-im
 Binary: libswiften3, libswiften-dev, swift-im
 Version: 3.0.4-2
@@ -11,15 +77,10 @@ Files:
  a7b4bdcdd32e4707a8fc5dd7e8afb9f8 9840 swift-im_3.0.4-2.debian.tar.xz
  3bfd7ab7875b5d8a3ff0e9b91c3f6b37 1789 swift-im_3.0.4-2.dsc
  c2750315244eaf63e099052b59baebce 2285806 swift-im_3.0.4.orig.tar.gz
-Uploaders: Remko Tronçon <dev@el-tramo.be>, Kevin Smith <kevin@kismith.co.uk>
-Checksums-Sha1:
- 4666606c0b980ad7e90bb020c042aaf9f5879d8a 9840 swift-im_3.0.4-2.debian.tar.xz
- 833d664139d1fe8fa76f5b994b0c1138952e0faa 1789 swift-im_3.0.4-2.dsc
- c0296c1b934414d7f7f689a8783528287bccc5bb 2285806 swift-im_3.0.4.orig.tar.gz
 Vcs-Git: git://swift.im/swift
-Checksums-Sha512:
- d20417c64cc452cf724945d5b56e2dcb37a9d425b4559788d7eff11bc86720fce9fd66eca27cec61a8c869b799775bdd53cb2bc4b4387fa531e135e58d469ea7 1789 swift-im_3.0.4-2.dsc
 Homepage: http://swift.im
+Uploaders: Remko Tronçon <dev@el-tramo.be>, Kevin Smith <kevin@kismith.co.uk>
+Vcs-Browser: http://swift.im/git/swift
 Checksums-Sha256:
  fdab5e20c5d5f1bdae5f7c8e69d70c4e2c67a46f75ea1d3ee25ce6efff573dc0 9840 swift-im_3.0.4-2.debian.tar.xz
  a5f0dbc23f5558d11bf6bcda07e29f79dd864c71f0f8dad5003b5956667e3c36 1789 swift-im_3.0.4-2.dsc
@@ -28,5 +89,10 @@ Package-List:
  libswiften-dev deb libdevel optional arch=any
  libswiften3 deb libs optional arch=any
  swift-im deb net optional arch=any
-Vcs-Browser: http://swift.im/git/swift
+Checksums-Sha1:
+ 4666606c0b980ad7e90bb020c042aaf9f5879d8a 9840 swift-im_3.0.4-2.debian.tar.xz
+ 833d664139d1fe8fa76f5b994b0c1138952e0faa 1789 swift-im_3.0.4-2.dsc
+ c0296c1b934414d7f7f689a8783528287bccc5bb 2285806 swift-im_3.0.4.orig.tar.gz
+Checksums-Sha512:
+ d20417c64cc452cf724945d5b56e2dcb37a9d425b4559788d7eff11bc86720fce9fd66eca27cec61a8c869b799775bdd53cb2bc4b4387fa531e135e58d469ea7 1789 swift-im_3.0.4-2.dsc
 
