@@ -121,6 +121,39 @@ Homepage: https://github.com/kaidanim/kaidan/
 Package: kirigami-gallery
 Priority: optional
 Section: kde
+Installed-Size: 441
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: amd64
+Source: kirigami2
+Version: 2.2.0-1
+Replaces: qml-module-org-kde-kirigami2 (<< 2.0.0-0neon+16.04+build3)
+Depends: kpackagelauncherqml, qml-module-org-kde-kirigami2, libc6 (>= 2.4), libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.5.0~), libqt5qml5 (>= 5.1.0)
+Breaks: qml-module-org-kde-kirigami2 (<< 2.0.0-0neon+16.04+build3)
+Filename: pool/main/k/kirigami2/kirigami-gallery_2.2.0-1_amd64.deb
+Size: 168266
+MD5sum: 2644bbb372a36a1e1058d548e7a1c292
+SHA1: 713b58cc1ccdb7ed3e692cb8062127f305ff4bb3
+SHA256: 3da8ef9bb9d76a5c2807ed8114b8316a66e6e91c5048ed7c502a62fd23a2f7ba
+SHA512: 3ba72eddc78fa2f0ade6d32210e9e67ccfea4574efd54cc6f70702e4ff4c99ddd2d7eac015dd1ec2de9e2c0d9e5f88319d8235e45ff799aada606091a3391022
+Description: set of QtQuick components targeted for mobile use
+ Kirigami is a set of QtQuick components at the moment targeted for
+ mobile use (in the future desktop as well) targeting both Plasma
+ Mobile and Android. A set of high level components to make the
+ creation of applications that look and feel great on mobile as well
+ as desktop devices and follow the Kirigami Human Interface
+ Guidelines. The target of these components is anybody that wants to
+ do an application using QtQuick as its main UI, especially if
+ targeting a mobile platform, without adding many dependencies. They
+ work on a variety of platforms, such as Plasma Mobile, Desktop Linux,
+ Android and Windows.
+ .
+ This package contains the example application Kirigami Gallery.
+Homepage: https://projects.kde.org/kirigami
+
+Package: kirigami-gallery
+Priority: optional
+Section: kde
 Installed-Size: 448
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -182,6 +215,37 @@ Description: set of QtQuick components targeted for mobile use
  Android and Windows.
  .
  This package contains the example application Kirigami Gallery.
+Homepage: https://projects.kde.org/kirigami
+
+Package: kirigami2-dev
+Priority: optional
+Section: kde
+Installed-Size: 26
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: amd64
+Source: kirigami2
+Version: 2.2.0-1
+Depends: qml-module-org-kde-kirigami2
+Filename: pool/main/k/kirigami2/kirigami2-dev_2.2.0-1_amd64.deb
+Size: 5598
+MD5sum: da5811ebbfaf1eae858d022f79f22ee0
+SHA1: f36449807be574eacf02aeb44d0bd05afe9da7b0
+SHA256: 27694123859e4398361926f97055b217b3050c9c1ca0fd46d320c3712040ae69
+SHA512: aa856793cc2467a0d4f366735ca3bb1b99f6ae63f934ad477f110f37a37735347fa4f0ad9a8a7b87ac9035b6edebb4e2ad3d6de0e5df41400dc180975cb25100
+Description: set of QtQuick components targeted for mobile use
+ Kirigami is a set of QtQuick components at the moment targeted for
+ mobile use (in the future desktop as well) targeting both Plasma
+ Mobile and Android. A set of high level components to make the
+ creation of applications that look and feel great on mobile as well
+ as desktop devices and follow the Kirigami Human Interface
+ Guidelines. The target of these components is anybody that wants to
+ do an application using QtQuick as its main UI, especially if
+ targeting a mobile platform, without adding many dependencies. They
+ work on a variety of platforms, such as Plasma Mobile, Desktop Linux,
+ Android and Windows.
+ .
+ This package contains the development files.
 Homepage: https://projects.kde.org/kirigami
 
 Package: kirigami2-dev
@@ -290,6 +354,35 @@ Description: XMPP library
  and performant C++ library for implementing XMPP applications. Swiften
  is used as the back-end library for the Swift Instant Messaging client.
 Homepage: http://swift.im
+
+Package: qml-module-org-kde-kirigami2
+Priority: optional
+Section: kde
+Installed-Size: 572
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: amd64
+Source: kirigami2
+Version: 2.2.0-1
+Depends: plasma-framework, qml-module-org-kde-kquickcontrolsaddons, qml-module-qtgraphicaleffects, qml-module-qtqml-models2, qml-module-qtquick-controls2, qml-module-qtquick-templates2, qml-module-qtquick2, libc6 (>= 2.14), libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.7.0), libqt5network5 (>= 5.5.0~), libqt5qml5 (>= 5.2.0~beta1), libqt5quick5 (>= 5.2.0~beta1), libstdc++6 (>= 4.1.1)
+Filename: pool/main/k/kirigami2/qml-module-org-kde-kirigami2_2.2.0-1_amd64.deb
+Size: 64906
+MD5sum: e6e93c8dd3286c83a555545b05d31f28
+SHA1: 272d466d44ddbd53085ecd2ba1e448b2ca360f59
+SHA256: b04d0f4c2e39aacaa5300a1029e53e0793825a2bb666a05cb38153eccfe82fac
+SHA512: 33e866b19ee8a3601c2d2fbe75f68178cd260528d3b7a9a5bb8ae14259ff384bba06e4c213847e9c5339690daf062d39e4eff5e595fbda046d5c2f054df46cb1
+Description: set of QtQuick components targeted for mobile use
+ Kirigami is a set of QtQuick components at the moment targeted for
+ mobile use (in the future desktop as well) targeting both Plasma
+ Mobile and Android. A set of high level components to make the
+ creation of applications that look and feel great on mobile as well
+ as desktop devices and follow the Kirigami Human Interface
+ Guidelines. The target of these components is anybody that wants to
+ do an application using QtQuick as its main UI, especially if
+ targeting a mobile platform, without adding many dependencies. They
+ work on a variety of platforms, such as Plasma Mobile, Desktop Linux,
+ Android and Windows.
+Homepage: https://projects.kde.org/kirigami
 
 Package: qml-module-org-kde-kirigami2
 Priority: optional
