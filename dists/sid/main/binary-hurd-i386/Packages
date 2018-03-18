@@ -1,0 +1,143 @@
+Package: kaidan
+Version: 0.3.2+git20180317-1
+Architecture: hurd-i386
+Maintainer: Kaidan Packaging Team <gamerbude@lnj.li>
+Installed-Size: 402
+Depends: libnotify-bin, qml-module-qtquick-controls2, qml-module-org-kde-kirigami2, libc0.3 (>= 2.4), libgcc1 (>= 1:3.0), libgloox17, libqt5core5a (>= 5.8.0), libqt5gui5 (>= 5.8.0), libqt5qml5 (>= 5.9.0~beta), libqt5sql5 (>= 5.8.0), libstdc++6 (>= 7.2.0-19)
+Homepage: https://github.com/kaidanim/kaidan/
+Priority: optional
+Section: comm
+Filename: pool/main/k/kaidan/kaidan_0.3.2+git20180317-1_hurd-i386.deb
+Size: 128524
+SHA256: aec44c2b25e8a15dbebee4c5e956b0827622a0efac265fbb12d96882ae8256f7
+SHA1: 9db7e883737c8cacbfb31c27b027e424c4300666
+MD5sum: 8e25310ad5c5eb82c4e065b5744b5a51
+Description: Simple, user-friendly Jabber/XMPP client for every device
+ It's providing a modern user-interface using Kirigami and QtQuick. The
+ back-end of Kaidan is completely written in C++ using the gloox XMPP Library
+ and Qt 5. As gloox, Kaidan is released
+ under the GPL (Version 3 or later).
+ .
+ Kaidan is not finished: Don't expect it to work as well as a finished
+ messenger will.
+
+Package: kaidan-dbgsym
+Source: kaidan
+Version: 0.3.2+git20180317-1
+Auto-Built-Package: debug-symbols
+Architecture: hurd-i386
+Maintainer: Kaidan Packaging Team <gamerbude@lnj.li>
+Installed-Size: 1778
+Depends: kaidan (= 0.3.2+git20180317-1)
+Homepage: https://github.com/kaidanim/kaidan/
+Priority: extra
+Section: debug
+Filename: pool/main/k/kaidan/kaidan-dbgsym_0.3.2+git20180317-1_hurd-i386.deb
+Size: 1751562
+SHA256: 0449aa97020f5650fb454d6396c256d8b994ff84f09d556f2bf31549ffb36ef0
+SHA1: 2a156857ecd50e4456068762684239d2dcfa8609
+MD5sum: 71bbe6c3519d4d72298affb3be96d4c8
+Description: Debug symbols for kaidan
+Build-Ids: c5ae4114bc175aff08930eb1559dd14898c2c858
+
+Package: libgloox-dbg
+Source: gloox
+Version: 1.0.20-1
+Architecture: hurd-i386
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Installed-Size: 4565
+Depends: libgloox-dev (= 1.0.20-1)
+Multi-Arch: same
+Homepage: http://camaya.net/gloox/
+Priority: extra
+Section: debug
+Filename: pool/main/g/gloox/libgloox-dbg_1.0.20-1_hurd-i386.deb
+Size: 4434010
+SHA256: 51edad6dc068b041d7611df5697cb2117b56dbec58bf69b3ca9a298141c533b6
+SHA1: cd0010294405ec851a14e023f7ed88d7c7377ede
+MD5sum: e6cca4211c964685d4da6435e968b8b8
+Description: C++ jabber/xmpp library (debug symbols)
+ A C++ Jabber/XMPP library that takes care of low level protocol stuff.
+ Additionally, it offers high level interfaces for interaction with an
+ XMPP server.
+ .
+ It is a fully compliant XMPP Core and supports various JEPs, mainly
+ those needed to implement a XMPP IM client.
+ .
+ This package contains symbols for debugging programs using this library.
+Build-Ids: c672948aabfd4e3fc74ce602acec861d8042374e
+
+Package: libgloox-dev
+Source: gloox
+Version: 1.0.20-1
+Architecture: hurd-i386
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Installed-Size: 3198
+Depends: libgloox17 (= 1.0.20-1), libgnutls28-dev, libidn11-dev
+Multi-Arch: same
+Homepage: http://camaya.net/gloox/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gloox/libgloox-dev_1.0.20-1_hurd-i386.deb
+Size: 580322
+SHA256: 5d309dda3bfbd699f9673a96daa6fd489686f47d2326a54256de7062d3c2baf4
+SHA1: 87681ffa506f37b119226ca3286253525972e3bf
+MD5sum: ddb197931ece346d8cbbc0b04658770f
+Description: C++ jabber/xmpp library (devel)
+ A C++ Jabber/XMPP library that takes care of low level protocol stuff.
+ Additionally, it offers high level interfaces for interaction with an
+ XMPP server.
+ .
+ It is a fully compliant XMPP Core and supports various JEPs, mainly
+ those needed to implement a XMPP IM client.
+ .
+ This package contains files needed for development with this library.
+
+Package: libgloox-doc
+Source: gloox
+Version: 1.0.20-1
+Architecture: all
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Installed-Size: 20227
+Homepage: http://camaya.net/gloox/
+Priority: extra
+Section: doc
+Filename: pool/main/g/gloox/libgloox-doc_1.0.20-1_all.deb
+Size: 1845628
+SHA256: cb287f2c1c49477d6cc0344673624c07844a68b8675a9a44aa83f0e131809e1e
+SHA1: 1e082d60f6efaa97ca31a37d8366aefdd74b6304
+MD5sum: 0f3da8398e41b9ea53fea5f4621e6c72
+Description: C++ jabber/xmpp library (API documentation)
+ A C++ Jabber/XMPP library that takes care of low level protocol stuff.
+ Additionally, it offers high level interfaces for interaction with an
+ XMPP server.
+ .
+ It is a fully compliant XMPP Core and supports various JEPs, mainly
+ those needed to implement a XMPP IM client.
+ .
+ This package contains API documentation for this library.
+
+Package: libgloox17
+Source: gloox
+Version: 1.0.20-1
+Architecture: hurd-i386
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Installed-Size: 1325
+Depends: libc0.3 (>= 2.21), libgcc1 (>= 1:3.0), libgnutls30 (>= 3.5.3), libidn11 (>= 1.13), libstdc++6 (>= 7.2.0-19), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: http://camaya.net/gloox/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gloox/libgloox17_1.0.20-1_hurd-i386.deb
+Size: 433962
+SHA256: 6f56b0966381b89be03019aa0948032b222186aa877cc226a7c4aecb27c546c7
+SHA1: 4ad90188743f9929193a20aa21a0ffdcf7dadbfa
+MD5sum: 00af1e6c836fdca63ff27371fc7315c1
+Description: C++ jabber/xmpp library
+ A C++ Jabber/XMPP library that takes care of low level protocol stuff.
+ Additionally, it offers high level interfaces for interaction with an
+ XMPP server.
+ .
+ It is a fully compliant XMPP Core and supports various JEPs, mainly
+ those needed to implement a XMPP IM client.
+

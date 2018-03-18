@@ -1,0 +1,6 @@
+Archive: unstable
+Component: main
+Origin: Kaidan
+Label: Kaidan
+Architecture: hurd-i386
+Description: Kaidan development builds
