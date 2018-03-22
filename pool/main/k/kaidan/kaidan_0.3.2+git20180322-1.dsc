@@ -2,7 +2,7 @@ Format: 3.0 (quilt)
 Source: kaidan
 Binary: kaidan
 Architecture: any
-Version: 0.3.2+git20180317-1
+Version: 0.3.2+git20180322-1
 Maintainer: Kaidan Packaging Team <gamerbude@lnj.li>
 Homepage: https://github.com/kaidanim/kaidan/
 Standards-Version: 4.1.3
@@ -12,11 +12,11 @@ Build-Depends: debhelper (>= 10), zlib1g-dev, libgloox-dev (>= 1.0.19), qtdeclar
 Package-List:
  kaidan deb comm optional arch=any
 Checksums-Sha1:
- f6b97c62a828b685c34c0eab252de782fd5117da 158608 kaidan_0.3.2+git20180317.orig.tar.xz
- 0e307a8e744616c220013976ea6d5af2578f0a80 2536 kaidan_0.3.2+git20180317-1.debian.tar.xz
+ 8194847315cf120e1d986390c1cc9413b20c6f35 158612 kaidan_0.3.2+git20180322.orig.tar.xz
+ b3bbb470924062a8e3e2fb31401966b1d8117753 2540 kaidan_0.3.2+git20180322-1.debian.tar.xz
 Checksums-Sha256:
- 288307d4fcbcb327758ed81ae8f7f3a29d86926abb15c6dc3b9cfbd4dee3bb81 158608 kaidan_0.3.2+git20180317.orig.tar.xz
- 11d99bc54a1fe1e1dd858d9f3fd6a44eaedd735a2ece3ff0fb257f9a70bed96a 2536 kaidan_0.3.2+git20180317-1.debian.tar.xz
+ 27c0d7fb734e4e3999ca83cefc7b5bffc9fe8294f244402abeb1c7ab6cdf3809 158612 kaidan_0.3.2+git20180322.orig.tar.xz
+ 787295bcbcb1feedd736611e790802cd3e451c4920d7944a33653e99c68889f8 2540 kaidan_0.3.2+git20180322-1.debian.tar.xz
 Files:
- 30489f784e81072f41e8547fb8652a84 158608 kaidan_0.3.2+git20180317.orig.tar.xz
- abba487daf38cb6bae39a552ffdd4905 2536 kaidan_0.3.2+git20180317-1.debian.tar.xz
+ 540e34014cf93530542c07e1fc55b81b 158612 kaidan_0.3.2+git20180322.orig.tar.xz
+ 764da358374f35df7884f9ee5d6de77a 2540 kaidan_0.3.2+git20180322-1.debian.tar.xz

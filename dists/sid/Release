@@ -2,37 +2,37 @@ Origin: Kaidan
 Label: Kaidan
 Suite: unstable
 Codename: sid
-Date: Sun, 18 Mar 2018 13:23:12 UTC
+Date: Thu, 22 Mar 2018 11:52:40 UTC
 Architectures: amd64 hurd-i386
 Components: main
 Description: Kaidan development builds
 MD5Sum:
- a7e72a9af40c0086cdc787d8df0376f1 5315 main/binary-amd64/Packages
- 9d30113dc210c969c21b8113b3986ae0 1878 main/binary-amd64/Packages.gz
+ 59ba9e81bdab9f1c5e16f1ca31e3d63f 5315 main/binary-amd64/Packages
+ e0fe6eaf6440fae70886b461f200e0e4 1878 main/binary-amd64/Packages.gz
  414e74b2dde1ae8ce4154967a96818e7 122 main/binary-amd64/Release
  a7623e0e7de8c57d975f6795fcb545ca 5406 main/binary-hurd-i386/Packages
  719d5e2275f8fd1e5f5c505347956762 1888 main/binary-hurd-i386/Packages.gz
  b6589c899d4d8431aa7da339830b6134 126 main/binary-hurd-i386/Release
- 9ed3623d4c35b9bae0084cbc04344c72 2981 main/source/Sources
- 26a87ff5449cb9ea8bec9ecfa3aff5cd 1302 main/source/Sources.gz
+ 1291e52af420e45607778d7580588dde 2981 main/source/Sources
+ 6f48ab92d10ab6416de3bc908542e1b9 1297 main/source/Sources.gz
  5c5ebcce46b279456a0195885e939627 123 main/source/Release
 SHA1:
- 220e70e23e04241539d6d20bd5d6bc2fdf6ad371 5315 main/binary-amd64/Packages
- b233e597456f73fd9acf1c5dcb0ea6188965f972 1878 main/binary-amd64/Packages.gz
+ abc2b7620f7b694f72773c9ed61cee14d88e3308 5315 main/binary-amd64/Packages
+ 55106c3aabd16545ab7d39ec38dfb65ba63f86b8 1878 main/binary-amd64/Packages.gz
  b62c31b05df45b254d3c1f564048d07f1a5d9e3b 122 main/binary-amd64/Release
  9f31d035c30c34f56e2fcbda94e85caa1b754661 5406 main/binary-hurd-i386/Packages
  18fd82b7c3b23a31c9fd0560e95198bbfead39c0 1888 main/binary-hurd-i386/Packages.gz
  84a4f28acc55b62873e65a5fe19be85807c0acfc 126 main/binary-hurd-i386/Release
- 5247e3e99d59e1e3127d5c5f6ca15f776199e877 2981 main/source/Sources
- fb1b7c7c7a49ddb66ce2d8cb5d19dadef63db8ef 1302 main/source/Sources.gz
+ a998f7c95dc08e85e09b953af92d65f71e5ee675 2981 main/source/Sources
+ 37ac8fb2ca6f09b77ce8fa48a402c524ce83129e 1297 main/source/Sources.gz
  14237c3caad591b799156f65907d541e38a88cf3 123 main/source/Release
 SHA256:
- 392e6e7efd09f94ea31826b8f829a0f0f08060beb80353ce07502fc63bbce0f6 5315 main/binary-amd64/Packages
- d5147962527b16fd444c63ecefdb7fd033d213c7904d03700101b0bf9f2900f5 1878 main/binary-amd64/Packages.gz
+ 8b0781b9ab95b99072e1f05e8b5ee1d6155c400e467ccb22249525514671e890 5315 main/binary-amd64/Packages
+ 838e152190cce77c19927db3688db9fc677c18764f86caec4f46b808bd617461 1878 main/binary-amd64/Packages.gz
  ddae34b5ac2f5a7a29a3f7c830f17b77759d65657e366554fabb582bebb0d777 122 main/binary-amd64/Release
  ed2b9a9c6cd472d4fd052b814d85409d4192942daee15fc12ca4e4afc3e48e64 5406 main/binary-hurd-i386/Packages
  c3ff483e9128ab1d9c84665a3cfcee6577b70714f6d86eb5cc2eff6e3211ff4a 1888 main/binary-hurd-i386/Packages.gz
  9da661084ee535ddc107c6ab3cddbcd5ea13463d813b7548148995ef472e5717 126 main/binary-hurd-i386/Release
- 65523bcfb1ad7cd80a9e0475fdbd41f49895173a67ec539bd3488bca4ed20a39 2981 main/source/Sources
- 2b397d5de8f82eec474869fd123aae5bca85ee854d1b24a1b9e3de890d23a89d 1302 main/source/Sources.gz
+ be4384ca515a68e3c26ec344fd4b6bdb5d7aca2604443d5c13d65ec630f2c9f7 2981 main/source/Sources
+ 92fc48d86b38ed4cd393b80248df38f06111a39a1e1f2200c33b72cbc3ad83cd 1297 main/source/Sources.gz
  40d79d2ee24cccbc264cf50a20666bc2dd7a42df4d71d129df668e70a2a0bc7a 123 main/source/Release
