@@ -2,7 +2,7 @@ Origin: Kaidan
 Label: Kaidan
 Suite: unstable
 Codename: sid
-Date: Thu, 22 Mar 2018 11:52:40 UTC
+Date: Thu, 22 Mar 2018 12:24:27 UTC
 Architectures: amd64 hurd-i386
 Components: main
 Description: Kaidan development builds
