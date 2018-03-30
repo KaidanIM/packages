@@ -1,0 +1,117 @@
+Package: kaidan
+Version: 0.3.2+git20180323-1
+Architecture: armhf
+Maintainer: Kaidan Packaging Team <git@lnj.li>
+Installed-Size: 372
+Depends: qml-module-qtquick-controls2, qml-module-org-kde-kirigami2, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libgloox17, libqt5core5a (>= 5.8.0), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.8.0), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.0.2), libqt5sql5 (>= 5.8.0), libqt5widgets5 (>= 5.8.0), libstdc++6 (>= 5.2)
+Recommends: libnotify-bin
+Homepage: https://github.com/kaidanim/kaidan/
+Priority: optional
+Section: comm
+Filename: pool/main/k/kaidan/kaidan_0.3.2+git20180323-1_armhf.deb
+Size: 126648
+SHA256: ea157a118b20c23a8e479c04d1d99b2ec7e0f9dd9f5521902a028dcf5806917d
+SHA1: fc0f04ca5a71865312a179dc7d2d90368b4c913b
+MD5sum: d56351811c0e207de429537dc0f79bd0
+Description: Simple, user-friendly Jabber/XMPP client for every device
+ It's providing a modern user-interface using Kirigami and QtQuick. The
+ back-end of Kaidan is completely written in C++ using the gloox XMPP Library
+ and Qt 5. As gloox, Kaidan is released
+ under the GPL (Version 3 or later).
+ .
+ Kaidan is not finished: Don't expect it to work as well as a finished
+ messenger will.
+
+Package: libgloox-dev
+Source: gloox
+Version: 1.0.20-2
+Architecture: armhf
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Installed-Size: 3071
+Depends: libgloox17 (= 1.0.20-2), libgnutls28-dev, libidn11-dev
+Multi-Arch: same
+Homepage: http://camaya.net/gloox/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gloox/libgloox-dev_1.0.20-2_armhf.deb
+Size: 555764
+SHA256: bf7303101ba3f3256aea0e24e153a18582a64ef668fb809916dd107c34132fcb
+SHA1: c80d54be68a4661c124e2a562d0287c8c2aac510
+MD5sum: 3f4647ce0c373de3bfd6fd923b22637d
+Description: C++ jabber/xmpp library (devel)
+ A C++ Jabber/XMPP library that takes care of low level protocol stuff.
+ Additionally, it offers high level interfaces for interaction with an
+ XMPP server.
+ .
+ It is a fully compliant XMPP Core and supports various XEPs, mainly
+ those needed to implement a XMPP IM client.
+ .
+ This package contains files needed for development with this library.
+
+Package: libgloox-doc
+Source: gloox
+Version: 1.0.20-2
+Architecture: all
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Installed-Size: 20287
+Homepage: http://camaya.net/gloox/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gloox/libgloox-doc_1.0.20-2_all.deb
+Size: 1949232
+SHA256: ec70e632768978dcc39df26781db7a1f120ce5f8c2c79a94aa446f30d5bb537d
+SHA1: 24a64931286ddbdcf2972ce9b53b19120114c51e
+MD5sum: c5777fde3837a6b6a7961ae6c8728bc5
+Description: C++ jabber/xmpp library (API documentation)
+ A C++ Jabber/XMPP library that takes care of low level protocol stuff.
+ Additionally, it offers high level interfaces for interaction with an
+ XMPP server.
+ .
+ It is a fully compliant XMPP Core and supports various XEPs, mainly
+ those needed to implement a XMPP IM client.
+ .
+ This package contains API documentation for this library.
+
+Package: libgloox17
+Source: gloox
+Version: 1.0.20-2
+Architecture: armhf
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Installed-Size: 818
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:3.5), libgnutls30 (>= 3.5.6), libidn11 (>= 1.13), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: http://camaya.net/gloox/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gloox/libgloox17_1.0.20-2_armhf.deb
+Size: 336320
+SHA256: cbc58514a2fa070c26fca1c7950244bfd46a074cd7dbd4c85f5c28aa751a1d5b
+SHA1: 42bd8ee9471b1b261c569c1995a9ad1ae84abd41
+MD5sum: 22875e0dfdd6db5300a1910cf56d0e1a
+Description: C++ jabber/xmpp library
+ A C++ Jabber/XMPP library that takes care of low level protocol stuff.
+ Additionally, it offers high level interfaces for interaction with an
+ XMPP server.
+ .
+ It is a fully compliant XMPP Core and supports various XEPs, mainly
+ those needed to implement a XMPP IM client.
+
+Package: libgloox17-dbgsym
+Source: gloox
+Version: 1.0.20-2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Vincent Cheng <vcheng@debian.org>
+Installed-Size: 4619
+Depends: libgloox17 (= 1.0.20-2)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/g/gloox/libgloox17-dbgsym_1.0.20-2_armhf.deb
+Size: 4428944
+SHA256: 2d2e88b15410d86c56f09f3616f203822f5ba56d99de8744176d88ae773e2d23
+SHA1: afaa3a0ff74af98570f2efc5d89ab6b30e9be9bb
+MD5sum: 6752b8f633790d8fadf90180f4e8d55f
+Description: debug symbols for libgloox17
+Build-Ids: 473d8cbad902a91030c6ba9e0026a5451efef33c
+

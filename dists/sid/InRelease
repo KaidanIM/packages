@@ -5,14 +5,23 @@ Origin: Kaidan
 Label: Kaidan
 Suite: unstable
 Codename: sid
-Date: Fri, 23 Mar 2018 23:28:28 UTC
-Architectures: amd64 hurd-i386
+Date: Fri, 30 Mar 2018 09:28:40 UTC
+Architectures: amd64 armhf arm64 i386 hurd-i386
 Components: main
 Description: Kaidan development builds
 MD5Sum:
  30f43d84465856ee2ebb4161b6a51fb3 5995 main/binary-amd64/Packages
  59ae548d3c5c6af184fcc38d7092025c 2085 main/binary-amd64/Packages.gz
  414e74b2dde1ae8ce4154967a96818e7 122 main/binary-amd64/Release
+ 2174dbdab63d46fc5ebfdfe5bbe68295 4435 main/binary-armhf/Packages
+ 038f4fbaf90ecf2c7eef89a24eb499de 1697 main/binary-armhf/Packages.gz
+ 0fa4e95c776847975c9d016ea8c67109 122 main/binary-armhf/Release
+ 6814e0605cecbdeaff58f5b08e7a816c 834 main/binary-arm64/Packages
+ 278cbe7bcd06d0518feb8bf99f0eb3c0 568 main/binary-arm64/Packages.gz
+ bf13b43a0c3f796a13bc62e48480ee8b 122 main/binary-arm64/Release
+ 0e3e07b695e41bff85e11297e29bf44b 4433 main/binary-i386/Packages
+ ac951e641c384854285bbb65011fc4ce 1696 main/binary-i386/Packages.gz
+ 4290e808e83019949756d6b242e0deaf 121 main/binary-i386/Release
  8e1edccce7c6a13e4805eb6cef513332 5409 main/binary-hurd-i386/Packages
  0bfd260932a4d809213b98287dff8cf9 1898 main/binary-hurd-i386/Packages.gz
  b6589c899d4d8431aa7da339830b6134 126 main/binary-hurd-i386/Release
@@ -23,6 +32,15 @@ SHA1:
  85938dc0d3914d551c02bbe4c36d19ca8e0187d0 5995 main/binary-amd64/Packages
  c3e00ea5e68c8547e47f4d6dbb2ea7faf4bb7eee 2085 main/binary-amd64/Packages.gz
  b62c31b05df45b254d3c1f564048d07f1a5d9e3b 122 main/binary-amd64/Release
+ 26acaca2647a837e8a94407596bc8d3f8ab0ef3f 4435 main/binary-armhf/Packages
+ b32c28da28fbcc3540d56f067cd951ff6fc273de 1697 main/binary-armhf/Packages.gz
+ 4f2fe02e9efc667a3be8d19d032596215aa4a2d3 122 main/binary-armhf/Release
+ 50803ceb61de2e9b916b085cf28e17ef5d476b1e 834 main/binary-arm64/Packages
+ 801fb55efa5b411e02445315173325a0ce9c5fbd 568 main/binary-arm64/Packages.gz
+ b77230e6de780916f0bfdccc4eba524e5002bd38 122 main/binary-arm64/Release
+ 26c8e570f7fe45702a6ba7a976d1b7f3ae63c3c0 4433 main/binary-i386/Packages
+ 6ee9af6854053c3215309ea8ddce5c9fd65978d9 1696 main/binary-i386/Packages.gz
+ 87ac98a81001088beddbd0017822022b00ad2a1a 121 main/binary-i386/Release
  9256d3c2e1b6ad3814a014c0ffb66373cb09a526 5409 main/binary-hurd-i386/Packages
  4ba3c5fffee1fb3ece6c41f1afd1189c9d53bee3 1898 main/binary-hurd-i386/Packages.gz
  84a4f28acc55b62873e65a5fe19be85807c0acfc 126 main/binary-hurd-i386/Release
@@ -33,6 +51,15 @@ SHA256:
  28ec1375429374a416d1f6634cf99e9ae8ae3cd0fed1633ee17134d6a1b71463 5995 main/binary-amd64/Packages
  a0567db3f5f95dc11442e0db91d4993e2081c0056cb14ae6bd0952edf416b278 2085 main/binary-amd64/Packages.gz
  ddae34b5ac2f5a7a29a3f7c830f17b77759d65657e366554fabb582bebb0d777 122 main/binary-amd64/Release
+ 97abeaeac392b17c82dbb1492b7732d162ec249505e707e2e91467191a91370f 4435 main/binary-armhf/Packages
+ 46c023f01255487bfea542defc9466fb6d80568f618cee206fed8d2ad4cce210 1697 main/binary-armhf/Packages.gz
+ bfd1ddb2387117e8db7c6d747a022ff7aed6c4e8de07dc00a0d98aedb9771cfa 122 main/binary-armhf/Release
+ e1dbbbdcf0dd56ba261a5a314348110a558cdb5550b458c0ee841a6055d4a1c1 834 main/binary-arm64/Packages
+ 3d9895beb773cd0b678da42efdb33c9e2464fc3d86053a4ac92e99f50deaefd7 568 main/binary-arm64/Packages.gz
+ c2cda0f95a02ed5742a51e9ddfeef03a8b6d687ff1d10801960e8e39d96d8cb8 122 main/binary-arm64/Release
+ b0203da3cd191d3f2784faa8c57e722a08f86aa98b8f25a5e8c8fe72a2198c99 4433 main/binary-i386/Packages
+ b61e09e19a03ec151c131f70aec78904c442c875b74e0099e40d67aad4fcfad9 1696 main/binary-i386/Packages.gz
+ db992e384382af5e34f43c880670a1ea88c8b5fe0b98749647d7051ee0f91aea 121 main/binary-i386/Release
  dc9b38454428c411cd7b5aadbec0fb01f8f91cc0fab5309dfa10ea90e2a75c4e 5409 main/binary-hurd-i386/Packages
  d31db86c60ebc1f989876cf98cc3ecf233bcb9ba5b7d680a6f444b9e3f2f292b 1898 main/binary-hurd-i386/Packages.gz
  9da661084ee535ddc107c6ab3cddbcd5ea13463d813b7548148995ef472e5717 126 main/binary-hurd-i386/Release
@@ -41,15 +68,15 @@ SHA256:
  40d79d2ee24cccbc264cf50a20666bc2dd7a42df4d71d129df668e70a2a0bc7a 123 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEZ1N1Usdb9EPXXpB2XjKXkBOieuMFAlq1jZwACgkQXjKXkBOi
-euPhLgv+OJrYENEwiGo9UhU1IFg2VbCyMle3F1wI7us6qCR+6nEwvx8ggqH83juA
-iBitS7WuqcZHvXJRKsx3nfN8bcFB9HS3yuf/3tqA7EnLTaiB3DK4vB0+xYjArxqJ
-qeYFK4p6M1x4u/xmD3vqAPQ/BrDfHxS6vTve/VPY0mNH6YV5aOQtNYaaLt7ZBoHK
-A/QiV6Xjy0m5HG9JK7CcaOTKj1d4fE8AecqGW4hGmr9yQsD/zC1qs8FU5VsvN/Y4
-X4f3vLwVTDGwGr09M+1OTwmMy8uAgvriblBTDCTOZ75rMMTo9PwF61lZ5SQ7CdcO
-6XfQp3CJkizlFmshqrxQz4L1GspDQBhtIYVKZzkO9p7FnXxWT5RLE/ZYUDvarJmL
-tEOUY7RoN+hEVFMAcaTgFlPZzdpeYpYICmsrldrgITR5HaLCUsr/6cltPo0w1kur
-byNUDczaLOz6HhFki5WcuV84XIiYozR/RTz79UP4DoN7eM1ALUdb4jR/AQwuWbPK
-4Sr/N/i3
-=x/UD
+iQGzBAEBCgAdFiEEZ1N1Usdb9EPXXpB2XjKXkBOieuMFAlq+A0gACgkQXjKXkBOi
+euPWqAwApzLtyP6loChKaH1l0HWtZnQhEaX4v8Elo3L1ALCUeM66NYHxZpZdm1+C
+SoHyi8elLhpfTu3lsC0Je14rohADTPxpdTB2t9s3v0EeoY3WFiwU1w5u75cfFhTh
+eILwA6YbicFLNhNEVTCwnNCTvt2plcFC9AZFMa5C6+IB98mVU1Qwxhi6XD267AgF
+PUJcFwLZbW0BtCcs6YMW6Jxm1GHBlcYXmVJAB3BIwr5LHTMyHJZEgcdyFHqVRe3s
+mX2hKBBKLEXillrBRO5E05p+Q0ju6SSlFSvpdXSvcL2VPaBVMHWZx0jwlpLJGGVs
+2G2hw83aCuvR2atwJl+pKlNHtXPgVxVKoA/FFWdlK1hyOBhIbwWjZX0eHUIzDQKd
+HKADApl+omWo9B68jbaghOlKDHEZaj+yfsUsdDxB+hb15hFVWIdTHoUka2uGqbl2
+RIenE58sxg4qmg4sjhHLeU6nJHxHZaWcNOewSITZuqUhcWNO0NmuZL2q9V1YUlr0
+uMi/koyA
+=FOhK
 -----END PGP SIGNATURE-----
