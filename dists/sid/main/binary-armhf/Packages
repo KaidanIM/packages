@@ -1,5 +1,5 @@
 Package: kaidan
-Version: 0.3.2+git20180403-1
+Version: 0.3.2+git20180404-1
 Architecture: armhf
 Maintainer: Kaidan Packaging Team <git@lnj.li>
 Installed-Size: 372
@@ -8,11 +8,11 @@ Recommends: libnotify-bin
 Homepage: https://github.com/kaidanim/kaidan/
 Priority: optional
 Section: comm
-Filename: pool/main/k/kaidan/kaidan_0.3.2+git20180403-1_armhf.deb
-Size: 126780
-SHA256: 97d47dd71a32bbbf767a8e0218b1d2486beb210cac04bac0ab76d0f272776f3a
-SHA1: d690cf39a2e367e5c7d0e68088d174dcb1c4510a
-MD5sum: dfdcdd9f182131b047479a8018c96139
+Filename: pool/main/k/kaidan/kaidan_0.3.2+git20180404-1_armhf.deb
+Size: 126932
+SHA256: c2a9a43519482c4580bc0eb9e16ce0c3cbfb6fb1063a0b22e3b5c8653674f33b
+SHA1: e9a2682e19bb48c1b90bc337fc5a9b539599920a
+MD5sum: 1363c6a02a0ae0c6433c69dc36bc3dab
 Description: Simple, user-friendly Jabber/XMPP client for every device
  It's providing a modern user-interface using Kirigami and QtQuick. The
  back-end of Kaidan is completely written in C++ using the gloox XMPP Library
@@ -24,21 +24,21 @@ Description: Simple, user-friendly Jabber/XMPP client for every device
 
 Package: kaidan-dbgsym
 Source: kaidan
-Version: 0.3.2+git20180403-1
+Version: 0.3.2+git20180404-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Kaidan Packaging Team <git@lnj.li>
 Installed-Size: 1818
-Depends: kaidan (= 0.3.2+git20180403-1)
+Depends: kaidan (= 0.3.2+git20180404-1)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kaidan/kaidan-dbgsym_0.3.2+git20180403-1_armhf.deb
-Size: 1781888
-SHA256: 11cd0e940e6fe730050d1c6fe140e87d2ed04b6e16bd4de4044a24ed47c10c2e
-SHA1: ac6b29e23774a3b86136b864df8880d9a7c2a922
-MD5sum: 1dcf05f8fcc88dcd94e7b34bd5eb77e0
+Filename: pool/main/k/kaidan/kaidan-dbgsym_0.3.2+git20180404-1_armhf.deb
+Size: 1781868
+SHA256: 963bcd2fb99da27c584c59c7b85f7d7797ece16f870e3a71dba9b7f31958ebc9
+SHA1: 5a0ab917a03b8b4448e8bd64719f76d10d8cc1bd
+MD5sum: a518283166d31017a71a0387da97f386
 Description: debug symbols for kaidan
-Build-Ids: 708790734c64dd3999409ff1e882610580aee80f
+Build-Ids: a212a7c75b59dd786cd50c02e8431a36a5a0413f
 
 Package: libgloox-dev
 Source: gloox
