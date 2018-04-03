@@ -1,5 +1,5 @@
 Package: kaidan
-Version: 0.3.2+git20180323-1
+Version: 0.3.2+git20180403-1
 Architecture: armhf
 Maintainer: Kaidan Packaging Team <git@lnj.li>
 Installed-Size: 372
@@ -8,11 +8,11 @@ Recommends: libnotify-bin
 Homepage: https://github.com/kaidanim/kaidan/
 Priority: optional
 Section: comm
-Filename: pool/main/k/kaidan/kaidan_0.3.2+git20180323-1_armhf.deb
-Size: 126648
-SHA256: ea157a118b20c23a8e479c04d1d99b2ec7e0f9dd9f5521902a028dcf5806917d
-SHA1: fc0f04ca5a71865312a179dc7d2d90368b4c913b
-MD5sum: d56351811c0e207de429537dc0f79bd0
+Filename: pool/main/k/kaidan/kaidan_0.3.2+git20180403-1_armhf.deb
+Size: 126780
+SHA256: 97d47dd71a32bbbf767a8e0218b1d2486beb210cac04bac0ab76d0f272776f3a
+SHA1: d690cf39a2e367e5c7d0e68088d174dcb1c4510a
+MD5sum: dfdcdd9f182131b047479a8018c96139
 Description: Simple, user-friendly Jabber/XMPP client for every device
  It's providing a modern user-interface using Kirigami and QtQuick. The
  back-end of Kaidan is completely written in C++ using the gloox XMPP Library
@@ -21,6 +21,24 @@ Description: Simple, user-friendly Jabber/XMPP client for every device
  .
  Kaidan is not finished: Don't expect it to work as well as a finished
  messenger will.
+
+Package: kaidan-dbgsym
+Source: kaidan
+Version: 0.3.2+git20180403-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Kaidan Packaging Team <git@lnj.li>
+Installed-Size: 1818
+Depends: kaidan (= 0.3.2+git20180403-1)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kaidan/kaidan-dbgsym_0.3.2+git20180403-1_armhf.deb
+Size: 1781888
+SHA256: 11cd0e940e6fe730050d1c6fe140e87d2ed04b6e16bd4de4044a24ed47c10c2e
+SHA1: ac6b29e23774a3b86136b864df8880d9a7c2a922
+MD5sum: 1dcf05f8fcc88dcd94e7b34bd5eb77e0
+Description: debug symbols for kaidan
+Build-Ids: 708790734c64dd3999409ff1e882610580aee80f
 
 Package: libgloox-dev
 Source: gloox
