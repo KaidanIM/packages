@@ -1,5 +1,5 @@
 Package: kaidan
-Version: 0.3.2+git20180323-1
+Version: 0.3.2+git20180403-1
 Architecture: amd64
 Maintainer: Kaidan Packaging Team <git@lnj.li>
 Installed-Size: 449
@@ -8,11 +8,11 @@ Recommends: libnotify-bin
 Homepage: https://github.com/kaidanim/kaidan/
 Priority: optional
 Section: comm
-Filename: pool/main/k/kaidan/kaidan_0.3.2+git20180323-1_amd64.deb
-Size: 135156
-SHA256: 9374815f7ee58d6bc4316506746a4d8a095fa8614523241676f35368fb436b98
-SHA1: 33e454e1fb8634a05f7146fa7e807bf1da2aead2
-MD5sum: 99e848483dd6ec178d29a3228cc26591
+Filename: pool/main/k/kaidan/kaidan_0.3.2+git20180403-1_amd64.deb
+Size: 135440
+SHA256: 1e5c6759a3b70c41f0e9f61139362eb1000d81a89d19df5f42f29517b1093d57
+SHA1: d8e46cda0c71ce5f3fc88ecb307cbde28f11509e
+MD5sum: 38c349931b815445a8a67d8a7096866b
 Description: Simple, user-friendly Jabber/XMPP client for every device
  It's providing a modern user-interface using Kirigami and QtQuick. The
  back-end of Kaidan is completely written in C++ using the gloox XMPP Library
@@ -24,21 +24,21 @@ Description: Simple, user-friendly Jabber/XMPP client for every device
 
 Package: kaidan-dbgsym
 Source: kaidan
-Version: 0.3.2+git20180323-1
+Version: 0.3.2+git20180403-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Kaidan Packaging Team <git@lnj.li>
 Installed-Size: 1808
-Depends: kaidan (= 0.3.2+git20180323-1)
+Depends: kaidan (= 0.3.2+git20180403-1)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kaidan/kaidan-dbgsym_0.3.2+git20180323-1_amd64.deb
-Size: 1770972
-SHA256: 1fa2d33a0736818d9e542d005465acacc05e89403c44cdef34eaca4046821287
-SHA1: 2816b2836a978a73e0f064637b392c9fe7bed13f
-MD5sum: 2c5df5b7980adcca1ca55b28651be69f
+Filename: pool/main/k/kaidan/kaidan-dbgsym_0.3.2+git20180403-1_amd64.deb
+Size: 1771504
+SHA256: c4a2b5ed2b39da5633d9149a7347c87bd49987dce7c9ac809df526a8ad4ccc09
+SHA1: b25e97960926ec6f5b27e74b14e0ff57bd9bf0e4
+MD5sum: 5fca41900ce2fd2553b9b38d0af6470f
 Description: debug symbols for kaidan
-Build-Ids: 6b0e1bc81f11b99d6ec68eaeb3116672fe3ea1da
+Build-Ids: 4ad2226d64f8175e40e576cbef6bd2b5f14397ff
 
 Package: libgloox-dbg
 Source: gloox
