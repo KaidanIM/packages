@@ -2,13 +2,13 @@ Origin: Kaidan
 Label: Kaidan
 Suite: unstable
 Codename: sid
-Date: Fri, 06 Apr 2018 22:13:59 UTC
+Date: Wed, 16 May 2018 12:02:01 UTC
 Architectures: amd64 armhf arm64 i386 hurd-i386
 Components: main
 Description: Kaidan development builds
 MD5Sum:
- 919a90bae051d661cc2e1c51fa82a6f4 7146 main/binary-amd64/Packages
- 045ee30581f97cf929bd88a1f607a399 2307 main/binary-amd64/Packages.gz
+ 2ba2f7ab81adce080cb8dcca683e4ef7 7020 main/binary-amd64/Packages
+ d48b6a0444945744a0dbd87f8a522e2e 2415 main/binary-amd64/Packages.gz
  414e74b2dde1ae8ce4154967a96818e7 122 main/binary-amd64/Release
  6f9e0c4ecaa8efcd29da2f2413d6035b 6066 main/binary-armhf/Packages
  68499d271de50267cccf3d3c7bae4e47 2207 main/binary-armhf/Packages.gz
@@ -22,12 +22,12 @@ MD5Sum:
  9ab65febec6900cea94fa62efbdd78d2 6438 main/binary-hurd-i386/Packages
  4e411af78a07e62de431336ef886e6dd 2232 main/binary-hurd-i386/Packages.gz
  b6589c899d4d8431aa7da339830b6134 126 main/binary-hurd-i386/Release
- 946e074d030edd5c1f91224cb28dee9c 2969 main/source/Sources
- 38ddc59e87cb6210fc73264c1d69bc9a 1281 main/source/Sources.gz
+ afcc1280f7bfd7b25d6f4d9211aa04f2 2912 main/source/Sources
+ 4b0699601c4a165b0e985bdb1e1a8080 1265 main/source/Sources.gz
  5c5ebcce46b279456a0195885e939627 123 main/source/Release
 SHA1:
- 11062c16052da27fbc42fec20ac748f4fa144c88 7146 main/binary-amd64/Packages
- 8085fc4d37e4a9cb90a1455015de667711069da0 2307 main/binary-amd64/Packages.gz
+ d614f2e2cf98d46cbcb82f9dfc52b352a3841603 7020 main/binary-amd64/Packages
+ 9e8664cf49482d3870dade43c2b9ad1fb9d18486 2415 main/binary-amd64/Packages.gz
  b62c31b05df45b254d3c1f564048d07f1a5d9e3b 122 main/binary-amd64/Release
  e71ee43f44c7f008d42535290909e2b906696be7 6066 main/binary-armhf/Packages
  1bde014dad16bec2f9d2c8966c9c98759dac27e7 2207 main/binary-armhf/Packages.gz
@@ -41,12 +41,12 @@ SHA1:
  76460344ab45cc678bfa8d15f3e5ceb15fdc26ea 6438 main/binary-hurd-i386/Packages
  5154ea416bebf8c5f8fec85fc138c4ad87d85f12 2232 main/binary-hurd-i386/Packages.gz
  84a4f28acc55b62873e65a5fe19be85807c0acfc 126 main/binary-hurd-i386/Release
- c9577b3d92ddbd6fcaf65ebb141e710d85995bd9 2969 main/source/Sources
- 2f5b697aa88ecfa2d25bdc19ef84806db2cb0b03 1281 main/source/Sources.gz
+ f50a1bd5901535532bc2877617c277eeb655eb46 2912 main/source/Sources
+ cfceec4d802c863d45ea3c8834d12cefc1bd7216 1265 main/source/Sources.gz
  14237c3caad591b799156f65907d541e38a88cf3 123 main/source/Release
 SHA256:
- a8fae36e7d4945e3598429e52e0b81609695f50416de8ff437a0ec9bea9d8517 7146 main/binary-amd64/Packages
- 9eaef7f122d70c1c0b91b97c50e91ada3083d47d004ef0c1c200cd19d98aaba2 2307 main/binary-amd64/Packages.gz
+ 0ab2d11d32054c8d75c2aad43bf6b69fa0d741d9cc48c5abe06629c13f744f6c 7020 main/binary-amd64/Packages
+ 5dfc186fcccd9da5e80b54c1b1eda259025ed889f3472ee189aadb03dc63a691 2415 main/binary-amd64/Packages.gz
  ddae34b5ac2f5a7a29a3f7c830f17b77759d65657e366554fabb582bebb0d777 122 main/binary-amd64/Release
  0c3a3a82c8412f46df8e67389520f3a18bc40892c4ca99b18a28228e1d38c38f 6066 main/binary-armhf/Packages
  d1d4fe1ed8165299e5554b42e72676b7798c8bc600131a78192f0d765d23c87d 2207 main/binary-armhf/Packages.gz
@@ -60,6 +60,6 @@ SHA256:
  c80f9de98c246596b92777e783be44bc62ed6928ade8d2f04375fb01715755fe 6438 main/binary-hurd-i386/Packages
  73d6bd6b851f05c62c712925b5c3ec6d25649e65d14d32512bf690400317369d 2232 main/binary-hurd-i386/Packages.gz
  9da661084ee535ddc107c6ab3cddbcd5ea13463d813b7548148995ef472e5717 126 main/binary-hurd-i386/Release
- d1a9c06aca609cb6ea4a49b0e7d8026780cfa5b3860aabe72b19dfdcfbe9383b 2969 main/source/Sources
- 7264a24d175eea3e06235cc73e880ab84a3c12fd7239abf3b36fee8e2cf7d792 1281 main/source/Sources.gz
+ b7179404dfc2da434bae62479fe397d1f046c348a652b8a93a111abd0b866ad7 2912 main/source/Sources
+ b7e9837e9cd04457f1cf51d4767352d5998267fb774850286fcb6570a896a508 1265 main/source/Sources.gz
  40d79d2ee24cccbc264cf50a20666bc2dd7a42df4d71d129df668e70a2a0bc7a 123 main/source/Release
