@@ -69,20 +69,20 @@ Build-Ids: bd411c7904b5c1c5422f356f5b64c6b4922e057d
 
 Package: libgloox-dbg
 Source: gloox
-Version: 1.0.20-1
+Version: 1.0.21-1
 Architecture: amd64
 Maintainer: Vincent Cheng <vcheng@debian.org>
-Installed-Size: 4827
-Depends: libgloox-dev (= 1.0.20-1)
+Installed-Size: 26
+Depends: libgloox-dev (= 1.0.21-1)
 Multi-Arch: same
-Homepage: http://camaya.net/gloox/
-Priority: extra
+Homepage: https://camaya.net/gloox/
+Priority: optional
 Section: debug
-Filename: pool/main/g/gloox/libgloox-dbg_1.0.20-1_amd64.deb
-Size: 4633156
-SHA256: 136a67f03f5425354561e529e9c0ca97493cd53472de249b580fe41c42843fc0
-SHA1: a45f309447e162621075406cc0ed8aca3927e4ae
-MD5sum: f2ca51f70d838376325de0c8dee51867
+Filename: pool/main/g/gloox/libgloox-dbg_1.0.21-1_amd64.deb
+Size: 19880
+SHA256: 226041f1c8405c5bf8f873b0e55dfd53ed52d9dd7ddff0f34f95bebf56ce9289
+SHA1: 3a970ed128690a69234d78955b944bf588cdec01
+MD5sum: fa2450c90d3e3c9a09e9696243939acc
 Description: C++ jabber/xmpp library (debug symbols)
  A C++ Jabber/XMPP library that takes care of low level protocol stuff.
  Additionally, it offers high level interfaces for interaction with an
@@ -92,98 +92,97 @@ Description: C++ jabber/xmpp library (debug symbols)
  those needed to implement a XMPP IM client.
  .
  This package contains symbols for debugging programs using this library.
-Build-Ids: 9942a1e516b1fa11c833fe20974dcfaa11f478ed
 
 Package: libgloox-dev
 Source: gloox
-Version: 1.0.20-2
+Version: 1.0.21-1
 Architecture: amd64
 Maintainer: Vincent Cheng <vcheng@debian.org>
-Installed-Size: 3966
-Depends: libgloox17 (= 1.0.20-2), libgnutls28-dev, libidn11-dev
+Installed-Size: 3967
+Depends: libgloox17 (= 1.0.21-1), libgnutls28-dev, libidn11-dev
 Multi-Arch: same
-Homepage: http://camaya.net/gloox/
+Homepage: https://camaya.net/gloox/
 Priority: optional
 Section: libdevel
-Filename: pool/main/g/gloox/libgloox-dev_1.0.20-2_amd64.deb
-Size: 568144
-SHA256: 590510d82b0600ec76532acbb57fd4f955931cb8a6788de79b8f8b8c8670b2dc
-SHA1: 1c14446d8055e72cdf4fbae4ab9807e794772efc
-MD5sum: 8fecbe91de5891de0f4ff962bc07f75a
+Filename: pool/main/g/gloox/libgloox-dev_1.0.21-1_amd64.deb
+Size: 567012
+SHA256: ab251d896a2f036673976b929971c8bd911ff78d000cb1a84725fba06adf00dd
+SHA1: 1e70227ccd0765c13dd08223bd24d79096b6d290
+MD5sum: d7a6ade5b677349ea5d53895e55b4d05
 Description: C++ jabber/xmpp library (devel)
  A C++ Jabber/XMPP library that takes care of low level protocol stuff.
  Additionally, it offers high level interfaces for interaction with an
  XMPP server.
  .
- It is a fully compliant XMPP Core and supports various XEPs, mainly
+ It is a fully compliant XMPP Core and supports various JEPs, mainly
  those needed to implement a XMPP IM client.
  .
  This package contains files needed for development with this library.
 
 Package: libgloox-doc
 Source: gloox
-Version: 1.0.20-2
+Version: 1.0.21-1
 Architecture: all
 Maintainer: Vincent Cheng <vcheng@debian.org>
-Installed-Size: 20287
-Homepage: http://camaya.net/gloox/
+Installed-Size: 20283
+Homepage: https://camaya.net/gloox/
 Priority: optional
 Section: doc
-Filename: pool/main/g/gloox/libgloox-doc_1.0.20-2_all.deb
-Size: 1949232
-SHA256: ec70e632768978dcc39df26781db7a1f120ce5f8c2c79a94aa446f30d5bb537d
-SHA1: 24a64931286ddbdcf2972ce9b53b19120114c51e
-MD5sum: c5777fde3837a6b6a7961ae6c8728bc5
+Filename: pool/main/g/gloox/libgloox-doc_1.0.21-1_all.deb
+Size: 1945804
+SHA256: efa62db7a1fe74e68d1b3b5fe7fe6f356d73cd47aa2bf579d33b06ab895379aa
+SHA1: f5dc599175847d398c182f9de938885c1eb56e26
+MD5sum: 45ceeadc223731861cdff10125ddb803
 Description: C++ jabber/xmpp library (API documentation)
  A C++ Jabber/XMPP library that takes care of low level protocol stuff.
  Additionally, it offers high level interfaces for interaction with an
  XMPP server.
  .
- It is a fully compliant XMPP Core and supports various XEPs, mainly
+ It is a fully compliant XMPP Core and supports various JEPs, mainly
  those needed to implement a XMPP IM client.
  .
  This package contains API documentation for this library.
 
 Package: libgloox17
 Source: gloox
-Version: 1.0.20-2
+Version: 1.0.21-1
 Architecture: amd64
 Maintainer: Vincent Cheng <vcheng@debian.org>
-Installed-Size: 1283
+Installed-Size: 1291
 Depends: libc6 (>= 2.15), libgcc1 (>= 1:3.0), libgnutls30 (>= 3.5.6), libidn11 (>= 1.13), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
 Multi-Arch: same
-Homepage: http://camaya.net/gloox/
+Homepage: https://camaya.net/gloox/
 Priority: optional
 Section: libs
-Filename: pool/main/g/gloox/libgloox17_1.0.20-2_amd64.deb
-Size: 379188
-SHA256: 708145dab85561687bd213a88ff5533ac0e61011505de47608a98cd9ec5dbbe0
-SHA1: 51b9c1ed8c66baf2050645245b4ebe9c682d10a4
-MD5sum: d208fc0f4aa69a2161084e9b87d9f483
+Filename: pool/main/g/gloox/libgloox17_1.0.21-1_amd64.deb
+Size: 379752
+SHA256: b896dd8db7a0a46ff502ba00dda958d2361c42c9962b8591674aa3af1da04dd0
+SHA1: f4c7724e2de4717e527499c0f9729c9f28920ca8
+MD5sum: dbd87fe1e99bb8ea38092d77cb784055
 Description: C++ jabber/xmpp library
  A C++ Jabber/XMPP library that takes care of low level protocol stuff.
  Additionally, it offers high level interfaces for interaction with an
  XMPP server.
  .
- It is a fully compliant XMPP Core and supports various XEPs, mainly
+ It is a fully compliant XMPP Core and supports various JEPs, mainly
  those needed to implement a XMPP IM client.
 
 Package: libgloox17-dbgsym
 Source: gloox
-Version: 1.0.20-2
+Version: 1.0.21-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Vincent Cheng <vcheng@debian.org>
 Installed-Size: 4804
-Depends: libgloox17 (= 1.0.20-2)
+Depends: libgloox17 (= 1.0.21-1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/g/gloox/libgloox17-dbgsym_1.0.20-2_amd64.deb
-Size: 4608976
-SHA256: 34afc1fe2bfca5ae502e39a2951595680103cf97aecf3a2b75b64042698faaf9
-SHA1: 60979891a0a16ed7a3e4e9a4335e9abefcc0ea49
-MD5sum: 4e35fc9f2b6b74c132b6ca25c241177d
+Filename: pool/main/g/gloox/libgloox17-dbgsym_1.0.21-1_amd64.deb
+Size: 4610864
+SHA256: ecb1d16ab4d0ba705340085d721f9ffe7041cb39fb85e5e13c7486a87699bfbd
+SHA1: 7c3901aafd12bf24754f71ba66f851730b709464
+MD5sum: d85965a7c36c47ed645019a1e1bfa973
 Description: debug symbols for libgloox17
-Build-Ids: 1016b9dd6703dc466f006d2ad31fda7f69b76bd7
+Build-Ids: 892d45d76ff2f806c2255614398940fb46a7b5d9
 
