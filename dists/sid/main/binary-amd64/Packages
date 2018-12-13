@@ -1,18 +1,18 @@
 Package: kaidan
-Version: 0.3.2+git20180516-2
+Version: 0.3.2+git20181213-1
 Architecture: amd64
 Maintainer: Kaidan Packaging Team <git@lnj.li>
-Installed-Size: 378
-Depends: qml-module-qtquick-controls2, qml-module-org-kde-kirigami2, kaidan-data, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgloox17, libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.8.0), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.0.2), libqt5sql5 (>= 5.8.0), libqt5widgets5 (>= 5.8.0), libstdc++6 (>= 5.2)
+Installed-Size: 572
+Depends: kaidan-data, qml-module-org-kde-kirigami2, qml-module-qtquick-controls2, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.8.0), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.0.2), libqt5sql5 (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.8.0), libqt5xml5 (>= 5.8.0), libqxmpp0, libstdc++6 (>= 5.2)
 Recommends: libnotify-bin
-Homepage: https://github.com/kaidanim/kaidan/
+Homepage: https://kaidan.im
 Priority: optional
 Section: comm
-Filename: pool/main/k/kaidan/kaidan_0.3.2+git20180516-2_amd64.deb
-Size: 97192
-SHA256: be243ba9a4bcbdac6a8e211741cca88942c5df60876746f5421ce7faec78097f
-SHA1: 584736c0f57dbdd6175f4bb5e62565c7530fe7a4
-MD5sum: 5beedc7c0d9b41f40e3dd702e74c61d8
+Filename: pool/main/k/kaidan/kaidan_0.3.2+git20181213-1_amd64.deb
+Size: 144388
+SHA256: d64365b1a89599d100942794bd95d9ddbf2844d39665ec82fe1020eeda73e0f1
+SHA1: 73dac2bca247586756364ca39223e598d162ac71
+MD5sum: af8059f40f6426ee677e95a1747f4f13
 Description: A simple, user-friendly Jabber/XMPP client for every device
  It has a modern user-interface made using Kirigami and QtQuick. The back-end
  is completely written in C++ using the XMPP client libraray gloox and Qt 5.
@@ -25,18 +25,18 @@ Description: A simple, user-friendly Jabber/XMPP client for every device
 
 Package: kaidan-data
 Source: kaidan
-Version: 0.3.2+git20180516-2
+Version: 0.3.2+git20181213-1
 Architecture: all
 Maintainer: Kaidan Packaging Team <git@lnj.li>
-Installed-Size: 103
-Homepage: https://github.com/kaidanim/kaidan/
+Installed-Size: 106
+Homepage: https://kaidan.im
 Priority: optional
 Section: comm
-Filename: pool/main/k/kaidan/kaidan-data_0.3.2+git20180516-2_all.deb
-Size: 47344
-SHA256: deb76212679f2b73126352d1817cdb2b6dbba52d24f77870c1e10e2ccdd0d229
-SHA1: 6446a304b17158e910c7ab581d2760f979eb4487
-MD5sum: f14daaaead33d1dd8ea4bb5a3ff54350
+Filename: pool/main/k/kaidan/kaidan-data_0.3.2+git20181213-1_all.deb
+Size: 48056
+SHA256: 810443cc8b5f7a8d6f931b8d9697777802b34a19a25610ad8dca7f31a63cc130
+SHA1: 3fd11d55471d6055c9f2d21508ce40670b426a50
+MD5sum: ebf4cdee0775325e927ca28cfe89d3ef
 Description: A simple, user-friendly Jabber/XMPP client for every device
  It has a modern user-interface made using Kirigami and QtQuick. The back-end
  is completely written in C++ using the XMPP client libraray gloox and Qt 5.
@@ -51,21 +51,21 @@ Description: A simple, user-friendly Jabber/XMPP client for every device
 
 Package: kaidan-dbgsym
 Source: kaidan
-Version: 0.3.2+git20180516-2
+Version: 0.3.2+git20181213-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Kaidan Packaging Team <git@lnj.li>
-Installed-Size: 1884
-Depends: kaidan (= 0.3.2+git20180516-2)
+Installed-Size: 3347
+Depends: kaidan (= 0.3.2+git20181213-1)
 Priority: optional
 Section: debug
-Filename: pool/main/k/kaidan/kaidan-dbgsym_0.3.2+git20180516-2_amd64.deb
-Size: 1848928
-SHA256: 7283e22cbbd0d25677eb4621d07b95e1713598d722facbb281c076edb287bdea
-SHA1: 1d5f689c4e4296c0f55f2d2d9e686b1b1d44f9de
-MD5sum: 0cf0617d9716a28001bcef5eb63376c9
+Filename: pool/main/k/kaidan/kaidan-dbgsym_0.3.2+git20181213-1_amd64.deb
+Size: 3274428
+SHA256: b6f3ba7ef12a96639824bdac0cb6f8f9a38ab79e22f757a52bf4030035e3c674
+SHA1: 11f216c9ae569907cb963027e410b871d4323781
+MD5sum: f31b0f9596acd9e543af28fabbf57714
 Description: debug symbols for kaidan
-Build-Ids: bd411c7904b5c1c5422f356f5b64c6b4922e057d
+Build-Ids: 52aec87d27c759549a0d24a135a2fa8dbeb69ce2
 
 Package: libgloox-dbg
 Source: gloox
